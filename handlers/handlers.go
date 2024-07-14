@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"banking/data"
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"net/http"
+
+	"github.com/rohan-singh-rajput/banking/data"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {

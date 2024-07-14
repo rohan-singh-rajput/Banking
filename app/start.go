@@ -1,8 +1,9 @@
 package app
 
 import (
-	"banking/handlers"
 	"net/http"
+
+	"github.com/rohan-singh-rajput/banking/handlers"
 )
 
 func Start() {
